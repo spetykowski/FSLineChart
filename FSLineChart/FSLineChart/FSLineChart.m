@@ -96,11 +96,11 @@
     // Labels attributes
     _indexLabelBackgroundColor = [UIColor clearColor];
     _indexLabelTextColor = [UIColor grayColor];
-    _indexLabelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:10];
+    _indexLabelFont = [UIFont systemFontOfSize:10 weight:UIFontWeightRegular];
     
     _valueLabelBackgroundColor = [UIColor colorWithWhite:1 alpha:0.75];
     _valueLabelTextColor = [UIColor grayColor];
-    _valueLabelFont = [UIFont fontWithName:@"HelveticaNeue-Light" size:11];
+    _valueLabelFont = [UIFont systemFontOfSize:11 weight:UIFontWeightRegular];
     _valueLabelPosition = ValueLabelRight;
 }
 
