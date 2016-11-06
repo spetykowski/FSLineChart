@@ -66,7 +66,7 @@
 - (void)commonInit
 {
     _layers = [NSMutableArray array];
-    self.backgroundColor = [UIColor whiteColor];
+    self.backgroundColor = [UIColor colorWithRed:0.1137254902 green:0.1137254902 blue:0.1137254902 alpha:1.0];
     [self setDefaultParameters];
 }
 
